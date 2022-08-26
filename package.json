@@ -6,7 +6,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "firebase": "^9.9.2",
+    "firebase": "^9.9.3",
     "vue": "^3.2.37",
     "vue-router": "^4.1.3"
   },
