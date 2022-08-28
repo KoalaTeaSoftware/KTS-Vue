@@ -18,9 +18,11 @@ const firebaseConfig = {
 // Initialize Firebase
 initializeApp(firebaseConfig)
 
-if (location.hostname === "localhost") {
-  connectAuthEmulator(getAuth(), "http://localhost:9099");
-}
+// when the project was clone, it had this her. It results in the register crashing when run locally
+// removing it allows for the thing to work locally
+// if (location.hostname === "localhost") {
+//   connectAuthEmulator(getAuth(), "http://localhost:9099");
+// }
 
 const app = createApp(App)
 
