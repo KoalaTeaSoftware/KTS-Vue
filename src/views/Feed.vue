@@ -12,7 +12,7 @@ const router = useRouter()
 
 /**
  * onAuthState changed waits for all asynchronous actions (like initialization) to resolve before running
- * so we get an accurate view of the usr, and we wait until we _can_  get it, and take action if the user
+ * so we get an accurate view of the usr's state, and we wait until we _can_  get it, and take action if the user
  * is not logged-in
  */
 const authListener = onAuthStateChanged(getAuth(), function (user) {

@@ -1,13 +1,7 @@
-/*
-As of today, this pulls-in and makes available just the getUserByEmail - it works!
- */
-
-// Things that are pulled into this use stuff pulled in by this 'require'
-const functions = require("firebase-functions");
-
+// get the admin stuff working
 const admin = require('firebase-admin');
 admin.initializeApp();
 
+// make our custom-build functions available to the rest of the client-side code
 const userManagement = require('./manageUsers');
-exports.getUserByEmail = userManagement.getUserByEmail
-
+exports.setUserRole = userManagement.setUserRole;

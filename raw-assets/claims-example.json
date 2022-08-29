@@ -1,0 +1,27 @@
+{
+  "claims": {
+    "iss": "https://securetoken.google.com/koala-tea-software-site",
+    "aud": "koala-tea-software-site",
+    "auth_time": 1661756412,
+    "user_id": "NE8KnSZZtraEU04usEnzMxI3KAa2",
+    "sub": "NE8KnSZZtraEU04usEnzMxI3KAa2",
+    "iat": 1661756418,
+    "exp": 1661760018,
+    "email": "admin@koalateasoftware.com",
+    "email_verified": false,
+    "firebase": {
+      "identities": {
+        "email": [
+          "admin@koalateasoftware.com"
+        ]
+      },
+      "sign_in_provider": "password"
+    }
+  },
+  "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjUyZmEwZjE2NmJmZjZiODU5N2FjMGFlMDRlNTllZmYxOTk1N2MyYmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20va29hbGEtdGVhLXNvZnR3YXJlLXNpdGUiLCJhdWQiOiJrb2FsYS10ZWEtc29mdHdhcmUtc2l0ZSIsImF1dGhfdGltZSI6MTY2MTc1NjQxMiwidXNlcl9pZCI6Ik5FOEtuU1padHJhRVUwNHVzRW56TXhJM0tBYTIiLCJzdWIiOiJORThLblNaWnRyYUVVMDR1c0Vuek14STNLQWEyIiwiaWF0IjoxNjYxNzU2NDE4LCJleHAiOjE2NjE3NjAwMTgsImVtYWlsIjoiYWRtaW5Aa29hbGF0ZWFzb2Z0d2FyZS5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiYWRtaW5Aa29hbGF0ZWFzb2Z0d2FyZS5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.snY0WUvmn6uVHA37HMi2b7tc5vAfSEvVBT3nS_WWbMrm-pmXeJ1fHm_gmyoXswC3r4_nn5P1ZXg1ckXyjKwvRBTbvVgctRT1rQ9bDwPG_EMRFS3FW_GBiUjvIoDcOJtmrz1KCN0qwg6UTP4ZZa3Zzqk_zo2a5SrWh09gIwKgTB_5FgKiaeWTKJ5j2f6mokGsHE-lbFEkd6hT5JxUmCVPEGjd2znSogl9kWXdlBerGEAVPc0AR4dDNohz-Q-DNSg-YkXtJGE13b8dHSzrdSzvoc7pVbqyQr5azQXaBqcK-gDs1eVu4HGSUwxgjkUbNx8-WhqqLiT3E7DRAULI2AJt7w",
+  "authTime": "Mon, 29 Aug 2022 07:00:12 GMT",
+  "issuedAtTime": "Mon, 29 Aug 2022 07:00:18 GMT",
+  "expirationTime": "Mon, 29 Aug 2022 08:00:18 GMT",
+  "signInProvider": "password",
+  "signInSecondFactor": null
+}
